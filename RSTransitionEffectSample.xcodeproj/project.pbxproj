@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551AA61D19E79B6500B03577 /* RSCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 551AA61C19E79B6500B03577 /* RSCustomCell.m */; };
+		551AA62019E79B8B00B03577 /* RSCustomTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 551AA61F19E79B8B00B03577 /* RSCustomTable.m */; };
+		D0ACB0DF18596BB600A092B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ACB0DE18596BB600A092B4 /* Foundation.framework */; };
+		D0ACB0E118596BB600A092B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ACB0E018596BB600A092B4 /* CoreGraphics.framework */; };
+		D0ACB0E318596BB600A092B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ACB0E218596BB600A092B4 /* UIKit.framework */; };
+		D0ACB0E918596BB600A092B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB0E718596BB600A092B4 /* InfoPlist.strings */; };
+		D0ACB0EB18596BB600A092B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB0EA18596BB600A092B4 /* main.m */; };
+		D0ACB0EF18596BB600A092B4 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB0EE18596BB600A092B4 /* RSAppDelegate.m */; };
+		D0ACB0F218596BB600A092B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB0F018596BB600A092B4 /* Main.storyboard */; };
+		D0ACB0F718596BB600A092B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB0F618596BB600A092B4 /* Images.xcassets */; };
+		D0ACB0FE18596BB600A092B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ACB0FD18596BB600A092B4 /* XCTest.framework */; };
+		D0ACB0FF18596BB600A092B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ACB0DE18596BB600A092B4 /* Foundation.framework */; };
+		D0ACB10018596BB600A092B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ACB0E218596BB600A092B4 /* UIKit.framework */; };
+		D0ACB10818596BB600A092B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB10618596BB600A092B4 /* InfoPlist.strings */; };
+		D0ACB10A18596BB600A092B4 /* RSTransitionEffectSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB10918596BB600A092B4 /* RSTransitionEffectSampleTests.m */; };
+		D0ACB11A18596BF500A092B4 /* RSBasicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB11518596BF500A092B4 /* RSBasicItem.m */; };
+		D0ACB11B18596BF500A092B4 /* RSTransitionEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB11718596BF500A092B4 /* RSTransitionEffectViewController.m */; };
+		D0ACB11C18596BF500A092B4 /* UITableView+Frames.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB11918596BF500A092B4 /* UITableView+Frames.m */; };
+		D0ACB12118596C4200A092B4 /* RSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB11E18596C4200A092B4 /* RSDetailViewController.m */; };
+		D0ACB12218596C4200A092B4 /* RSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ACB12018596C4200A092B4 /* RSTableViewController.m */; };
+		D0ACB12418596C8400A092B4 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12318596C8400A092B4 /* SampleData.plist */; };
+		D0ACB13118596D6200A092B4 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12618596D6200A092B4 /* images-1.jpeg */; };
+		D0ACB13218596D6200A092B4 /* images-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12718596D6200A092B4 /* images-10.jpeg */; };
+		D0ACB13318596D6200A092B4 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12818596D6200A092B4 /* images-2.jpeg */; };
+		D0ACB13418596D6200A092B4 /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12918596D6200A092B4 /* images-3.jpeg */; };
+		D0ACB13518596D6200A092B4 /* images-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12A18596D6200A092B4 /* images-4.jpeg */; };
+		D0ACB13618596D6200A092B4 /* images-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12B18596D6200A092B4 /* images-5.jpeg */; };
+		D0ACB13718596D6200A092B4 /* images-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12C18596D6200A092B4 /* images-6.jpeg */; };
+		D0ACB13818596D6200A092B4 /* images-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12D18596D6200A092B4 /* images-7.jpeg */; };
+		D0ACB13918596D6200A092B4 /* images-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12E18596D6200A092B4 /* images-8.jpeg */; };
+		D0ACB13A18596D6200A092B4 /* images-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB12F18596D6200A092B4 /* images-9.jpeg */; };
+		D0ACB13B18596D6200A092B4 /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = D0ACB13018596D6200A092B4 /* temp.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0ACB10118596BB600A092B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0ACB0D318596BB600A092B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0ACB0DA18596BB600A092B4;
+			remoteInfo = RSTransitionEffectSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		551AA61B19E79B6500B03577 /* RSCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCustomCell.h; sourceTree = "<group>"; };
+		551AA61C19E79B6500B03577 /* RSCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCustomCell.m; sourceTree = "<group>"; };
+		551AA61E19E79B8B00B03577 /* RSCustomTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCustomTable.h; sourceTree = "<group>"; };
+		551AA61F19E79B8B00B03577 /* RSCustomTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCustomTable.m; sourceTree = "<group>"; };
+		D0ACB0DB18596BB600A092B4 /* RSTransitionEffectSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSTransitionEffectSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0ACB0DE18596BB600A092B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0ACB0E018596BB600A092B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0ACB0E218596BB600A092B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0ACB0E618596BB600A092B4 /* RSTransitionEffectSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSTransitionEffectSample-Info.plist"; sourceTree = "<group>"; };
+		D0ACB0E818596BB600A092B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0ACB0EA18596BB600A092B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0ACB0EC18596BB600A092B4 /* RSTransitionEffectSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSTransitionEffectSample-Prefix.pch"; sourceTree = "<group>"; };
+		D0ACB0ED18596BB600A092B4 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
+		D0ACB0EE18596BB600A092B4 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
+		D0ACB0F118596BB600A092B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0ACB0F618596BB600A092B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0ACB0FC18596BB600A092B4 /* RSTransitionEffectSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSTransitionEffectSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0ACB0FD18596BB600A092B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0ACB10518596BB600A092B4 /* RSTransitionEffectSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSTransitionEffectSampleTests-Info.plist"; sourceTree = "<group>"; };
+		D0ACB10718596BB600A092B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0ACB10918596BB600A092B4 /* RSTransitionEffectSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTransitionEffectSampleTests.m; sourceTree = "<group>"; };
+		D0ACB11418596BF500A092B4 /* RSBasicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBasicItem.h; sourceTree = "<group>"; };
+		D0ACB11518596BF500A092B4 /* RSBasicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBasicItem.m; sourceTree = "<group>"; };
+		D0ACB11618596BF500A092B4 /* RSTransitionEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTransitionEffectViewController.h; sourceTree = "<group>"; };
+		D0ACB11718596BF500A092B4 /* RSTransitionEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTransitionEffectViewController.m; sourceTree = "<group>"; };
+		D0ACB11818596BF500A092B4 /* UITableView+Frames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Frames.h"; sourceTree = "<group>"; };
+		D0ACB11918596BF500A092B4 /* UITableView+Frames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Frames.m"; sourceTree = "<group>"; };
+		D0ACB11D18596C4200A092B4 /* RSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSDetailViewController.h; path = RSTransitionEffectSample/RSDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		D0ACB11E18596C4200A092B4 /* RSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSDetailViewController.m; path = RSTransitionEffectSample/RSDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		D0ACB11F18596C4200A092B4 /* RSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSTableViewController.h; path = RSTransitionEffectSample/RSTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D0ACB12018596C4200A092B4 /* RSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSTableViewController.m; path = RSTransitionEffectSample/RSTableViewController.m; sourceTree = SOURCE_ROOT; };
+		D0ACB12318596C8400A092B4 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		D0ACB12618596D6200A092B4 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpeg"; sourceTree = "<group>"; };
+		D0ACB12718596D6200A092B4 /* images-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-10.jpeg"; sourceTree = "<group>"; };
+		D0ACB12818596D6200A092B4 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-2.jpeg"; sourceTree = "<group>"; };
+		D0ACB12918596D6200A092B4 /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-3.jpeg"; sourceTree = "<group>"; };
+		D0ACB12A18596D6200A092B4 /* images-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-4.jpeg"; sourceTree = "<group>"; };
+		D0ACB12B18596D6200A092B4 /* images-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-5.jpeg"; sourceTree = "<group>"; };
+		D0ACB12C18596D6200A092B4 /* images-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-6.jpeg"; sourceTree = "<group>"; };
+		D0ACB12D18596D6200A092B4 /* images-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-7.jpeg"; sourceTree = "<group>"; };
+		D0ACB12E18596D6200A092B4 /* images-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-8.jpeg"; sourceTree = "<group>"; };
+		D0ACB12F18596D6200A092B4 /* images-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-9.jpeg"; sourceTree = "<group>"; };
+		D0ACB13018596D6200A092B4 /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0ACB0D818596BB600A092B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACB0E118596BB600A092B4 /* CoreGraphics.framework in Frameworks */,
+				D0ACB0E318596BB600A092B4 /* UIKit.framework in Frameworks */,
+				D0ACB0DF18596BB600A092B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ACB0F918596BB600A092B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACB0FE18596BB600A092B4 /* XCTest.framework in Frameworks */,
+				D0ACB10018596BB600A092B4 /* UIKit.framework in Frameworks */,
+				D0ACB0FF18596BB600A092B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0ACB0D218596BB600A092B4 = {
+			isa = PBXGroup;
+			children = (
+				551AA61E19E79B8B00B03577 /* RSCustomTable.h */,
+				551AA61F19E79B8B00B03577 /* RSCustomTable.m */,
+				551AA61B19E79B6500B03577 /* RSCustomCell.h */,
+				551AA61C19E79B6500B03577 /* RSCustomCell.m */,
+				D0ACB0E418596BB600A092B4 /* RSTransitionEffectSample */,
+				D0ACB10318596BB600A092B4 /* RSTransitionEffectSampleTests */,
+				D0ACB0DD18596BB600A092B4 /* Frameworks */,
+				D0ACB0DC18596BB600A092B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0ACB0DC18596BB600A092B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB0DB18596BB600A092B4 /* RSTransitionEffectSample.app */,
+				D0ACB0FC18596BB600A092B4 /* RSTransitionEffectSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0ACB0DD18596BB600A092B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB0DE18596BB600A092B4 /* Foundation.framework */,
+				D0ACB0E018596BB600A092B4 /* CoreGraphics.framework */,
+				D0ACB0E218596BB600A092B4 /* UIKit.framework */,
+				D0ACB0FD18596BB600A092B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0ACB0E418596BB600A092B4 /* RSTransitionEffectSample */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB11318596BF500A092B4 /* RSTransitionEffect */,
+				D0ACB0ED18596BB600A092B4 /* RSAppDelegate.h */,
+				D0ACB0EE18596BB600A092B4 /* RSAppDelegate.m */,
+				D0ACB11D18596C4200A092B4 /* RSDetailViewController.h */,
+				D0ACB11E18596C4200A092B4 /* RSDetailViewController.m */,
+				D0ACB11F18596C4200A092B4 /* RSTableViewController.h */,
+				D0ACB12018596C4200A092B4 /* RSTableViewController.m */,
+				D0ACB0F018596BB600A092B4 /* Main.storyboard */,
+				D0ACB0F618596BB600A092B4 /* Images.xcassets */,
+				D0ACB0E518596BB600A092B4 /* Supporting Files */,
+			);
+			path = RSTransitionEffectSample;
+			sourceTree = "<group>";
+		};
+		D0ACB0E518596BB600A092B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB12518596D6200A092B4 /* Images */,
+				D0ACB12318596C8400A092B4 /* SampleData.plist */,
+				D0ACB0E618596BB600A092B4 /* RSTransitionEffectSample-Info.plist */,
+				D0ACB0E718596BB600A092B4 /* InfoPlist.strings */,
+				D0ACB0EA18596BB600A092B4 /* main.m */,
+				D0ACB0EC18596BB600A092B4 /* RSTransitionEffectSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0ACB10318596BB600A092B4 /* RSTransitionEffectSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB10918596BB600A092B4 /* RSTransitionEffectSampleTests.m */,
+				D0ACB10418596BB600A092B4 /* Supporting Files */,
+			);
+			path = RSTransitionEffectSampleTests;
+			sourceTree = "<group>";
+		};
+		D0ACB10418596BB600A092B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB10518596BB600A092B4 /* RSTransitionEffectSampleTests-Info.plist */,
+				D0ACB10618596BB600A092B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0ACB11318596BF500A092B4 /* RSTransitionEffect */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB11418596BF500A092B4 /* RSBasicItem.h */,
+				D0ACB11518596BF500A092B4 /* RSBasicItem.m */,
+				D0ACB11618596BF500A092B4 /* RSTransitionEffectViewController.h */,
+				D0ACB11718596BF500A092B4 /* RSTransitionEffectViewController.m */,
+				D0ACB11818596BF500A092B4 /* UITableView+Frames.h */,
+				D0ACB11918596BF500A092B4 /* UITableView+Frames.m */,
+			);
+			path = RSTransitionEffect;
+			sourceTree = SOURCE_ROOT;
+		};
+		D0ACB12518596D6200A092B4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0ACB12618596D6200A092B4 /* images-1.jpeg */,
+				D0ACB12718596D6200A092B4 /* images-10.jpeg */,
+				D0ACB12818596D6200A092B4 /* images-2.jpeg */,
+				D0ACB12918596D6200A092B4 /* images-3.jpeg */,
+				D0ACB12A18596D6200A092B4 /* images-4.jpeg */,
+				D0ACB12B18596D6200A092B4 /* images-5.jpeg */,
+				D0ACB12C18596D6200A092B4 /* images-6.jpeg */,
+				D0ACB12D18596D6200A092B4 /* images-7.jpeg */,
+				D0ACB12E18596D6200A092B4 /* images-8.jpeg */,
+				D0ACB12F18596D6200A092B4 /* images-9.jpeg */,
+				D0ACB13018596D6200A092B4 /* temp.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0ACB0DA18596BB600A092B4 /* RSTransitionEffectSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0ACB10D18596BB600A092B4 /* Build configuration list for PBXNativeTarget "RSTransitionEffectSample" */;
+			buildPhases = (
+				D0ACB0D718596BB600A092B4 /* Sources */,
+				D0ACB0D818596BB600A092B4 /* Frameworks */,
+				D0ACB0D918596BB600A092B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSTransitionEffectSample;
+			productName = RSTransitionEffectSample;
+			productReference = D0ACB0DB18596BB600A092B4 /* RSTransitionEffectSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0ACB0FB18596BB600A092B4 /* RSTransitionEffectSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0ACB11018596BB600A092B4 /* Build configuration list for PBXNativeTarget "RSTransitionEffectSampleTests" */;
+			buildPhases = (
+				D0ACB0F818596BB600A092B4 /* Sources */,
+				D0ACB0F918596BB600A092B4 /* Frameworks */,
+				D0ACB0FA18596BB600A092B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0ACB10218596BB600A092B4 /* PBXTargetDependency */,
+			);
+			name = RSTransitionEffectSampleTests;
+			productName = RSTransitionEffectSampleTests;
+			productReference = D0ACB0FC18596BB600A092B4 /* RSTransitionEffectSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0ACB0D318596BB600A092B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RS;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = P.D.Q.;
+				TargetAttributes = {
+					D0ACB0FB18596BB600A092B4 = {
+						TestTargetID = D0ACB0DA18596BB600A092B4;
+					};
+				};
+			};
+			buildConfigurationList = D0ACB0D618596BB600A092B4 /* Build configuration list for PBXProject "RSTransitionEffectSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0ACB0D218596BB600A092B4;
+			productRefGroup = D0ACB0DC18596BB600A092B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0ACB0DA18596BB600A092B4 /* RSTransitionEffectSample */,
+				D0ACB0FB18596BB600A092B4 /* RSTransitionEffectSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0ACB0D918596BB600A092B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACB13318596D6200A092B4 /* images-2.jpeg in Resources */,
+				D0ACB13518596D6200A092B4 /* images-4.jpeg in Resources */,
+				D0ACB0F718596BB600A092B4 /* Images.xcassets in Resources */,
+				D0ACB0E918596BB600A092B4 /* InfoPlist.strings in Resources */,
+				D0ACB13218596D6200A092B4 /* images-10.jpeg in Resources */,
+				D0ACB12418596C8400A092B4 /* SampleData.plist in Resources */,
+				D0ACB0F218596BB600A092B4 /* Main.storyboard in Resources */,
+				D0ACB13A18596D6200A092B4 /* images-9.jpeg in Resources */,
+				D0ACB13918596D6200A092B4 /* images-8.jpeg in Resources */,
+				D0ACB13818596D6200A092B4 /* images-7.jpeg in Resources */,
+				D0ACB13718596D6200A092B4 /* images-6.jpeg in Resources */,
+				D0ACB13B18596D6200A092B4 /* temp.png in Resources */,
+				D0ACB13118596D6200A092B4 /* images-1.jpeg in Resources */,
+				D0ACB13418596D6200A092B4 /* images-3.jpeg in Resources */,
+				D0ACB13618596D6200A092B4 /* images-5.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ACB0FA18596BB600A092B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACB10818596BB600A092B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0ACB0D718596BB600A092B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACB12218596C4200A092B4 /* RSTableViewController.m in Sources */,
+				551AA61D19E79B6500B03577 /* RSCustomCell.m in Sources */,
+				D0ACB12118596C4200A092B4 /* RSDetailViewController.m in Sources */,
+				D0ACB11B18596BF500A092B4 /* RSTransitionEffectViewController.m in Sources */,
+				D0ACB11C18596BF500A092B4 /* UITableView+Frames.m in Sources */,
+				D0ACB0EB18596BB600A092B4 /* main.m in Sources */,
+				D0ACB0EF18596BB600A092B4 /* RSAppDelegate.m in Sources */,
+				551AA62019E79B8B00B03577 /* RSCustomTable.m in Sources */,
+				D0ACB11A18596BF500A092B4 /* RSBasicItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ACB0F818596BB600A092B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ACB10A18596BB600A092B4 /* RSTransitionEffectSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0ACB10218596BB600A092B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0ACB0DA18596BB600A092B4 /* RSTransitionEffectSample */;
+			targetProxy = D0ACB10118596BB600A092B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0ACB0E718596BB600A092B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ACB0E818596BB600A092B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0ACB0F018596BB600A092B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ACB0F118596BB600A092B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0ACB10618596BB600A092B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ACB10718596BB600A092B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0ACB10B18596BB600A092B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0ACB10C18596BB600A092B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0ACB10E18596BB600A092B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSTransitionEffectSample/RSTransitionEffectSample-Prefix.pch";
+				INFOPLIST_FILE = "RSTransitionEffectSample/RSTransitionEffectSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c0c34ae-7d8d-418c-a199-7e9a6a25e233";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0ACB10F18596BB600A092B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSTransitionEffectSample/RSTransitionEffectSample-Prefix.pch";
+				INFOPLIST_FILE = "RSTransitionEffectSample/RSTransitionEffectSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c0c34ae-7d8d-418c-a199-7e9a6a25e233";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0ACB11118596BB600A092B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSTransitionEffectSample.app/RSTransitionEffectSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSTransitionEffectSample/RSTransitionEffectSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RSTransitionEffectSampleTests/RSTransitionEffectSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0ACB11218596BB600A092B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSTransitionEffectSample.app/RSTransitionEffectSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSTransitionEffectSample/RSTransitionEffectSample-Prefix.pch";
+				INFOPLIST_FILE = "RSTransitionEffectSampleTests/RSTransitionEffectSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0ACB0D618596BB600A092B4 /* Build configuration list for PBXProject "RSTransitionEffectSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ACB10B18596BB600A092B4 /* Debug */,
+				D0ACB10C18596BB600A092B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0ACB10D18596BB600A092B4 /* Build configuration list for PBXNativeTarget "RSTransitionEffectSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ACB10E18596BB600A092B4 /* Debug */,
+				D0ACB10F18596BB600A092B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0ACB11018596BB600A092B4 /* Build configuration list for PBXNativeTarget "RSTransitionEffectSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ACB11118596BB600A092B4 /* Debug */,
+				D0ACB11218596BB600A092B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0ACB0D318596BB600A092B4 /* Project object */;
+}

@@ -3,6 +3,9 @@ MMTransitionEffect
 
 This is Extension Of RSTransitionEffect Transformed From (Frame based animation) to (Constraint Based Animation)
 
+![Demo MMTransitionEffect](http://i.imgur.com/VgLIiif.gif)
+
+
 Contact Me
 ==========
 Mukesh Mandora

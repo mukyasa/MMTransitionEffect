@@ -6,6 +6,25 @@ This is Extension Of RSTransitionEffect Transformed From (Frame based animation)
 ![Demo MMTransitionEffect](http://i.imgur.com/VgLIiif.gif)
 
 
+**My Other Repositories**
+
+**MMPaper:**<br />
+https://github.com/mukyasa/MMPaper<br />
+
+**MMCamScanner:**<br />
+https://github.com/mukyasa/MMCamScanner<br />
+
+**MMTextFieldEffects:**<br />
+https://github.com/mukyasa/MMTextFieldEffects<br />
+
+**MMGooglePlayNewsStand:**<br />
+https://github.com/mukyasa/MMGooglePlayNewsStand
+
+**MMPaperPanFlip:**<br /> 
+https://github.com/mukyasa/MMPaperPanFlip<br />
+
+
+
 Contact Me
 ==========
 Mukesh Mandora
